@@ -367,11 +367,11 @@
 - [x] Procfile "web: node app.js"
 - [x] remove existing git repo
 - [x] rm -rf .git - mac,
-- [] git init
-- [] git add .
-- [] git commit -m "initial commit"
-- [] heroku login
-- [] heroku create "App Name"
-- [] git remote -v
-- [] setup env vars in GUI
-- [] git push heroku master/main
+- [x] git init
+- [x] git add .
+- [x] git commit -m "initial commit"
+- [x] heroku login
+- [x] heroku create "App Name"
+- [x] git remote -v
+- [x] setup env vars in GUI
+- [x] git push heroku master/main
