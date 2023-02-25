@@ -2,6 +2,10 @@
 
 This is a backend application built with NodeJS that provides an API for an E-commerce website. The API allows clients to create and manage products, categories, and orders, as well as handle authentication and authorization of users.
 
+## Preview
+
+See the live documentation powered by SwaggerUI at [https://e-commerce-api-dk.up.railway.app](https://e-commerce-api-dk.up.railway.app/)
+
 ## Installation
 
 To use this application, follow these steps:
@@ -85,7 +89,6 @@ MONGO_URI=<your-mongodb-uri-here>
 JWT_SECRET=<your-jwt-secret-here>
 JWT_LIFETIME=2d
 ```
-
 
 ## Packages
 
