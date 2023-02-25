@@ -1,6 +1,6 @@
 ## Hosted Project
 
-[E-Commerce API Heroku URL](https://e-commerce-api-10.herokuapp.com/)
+[E-Commerce API Railway URL](https://e-commerce-api-dk.up.railway.app/)
 
 #### Setup Basic Express Server
 
