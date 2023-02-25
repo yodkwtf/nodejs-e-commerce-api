@@ -1,8 +1,93 @@
-## Description
+# E-commerce API
 
-> All the infomation about the different routes/controllers/models are in [guide.md]('/guide.md') including the steps taken to create every single thing in this project.
+This is a backend application built with NodeJS that provides an API for an E-commerce website. The API allows clients to create and manage products, categories, and orders, as well as handle authentication and authorization of users.
 
-### Packages
+## Installation
+
+To use this application, follow these steps:
+
+1. Clone this repository to your local machine using
+
+```
+git clone https://github.com/yodkwtf/nodejs-e-commerce-api.git
+```
+
+2. Change into the directory:
+
+```
+cd nodejs-e-commerce-api
+```
+
+3. Install the required dependencies:
+
+```
+npm install
+```
+
+## Usage
+
+To start the server, run the following command:
+
+```sh
+npm start
+```
+
+The server will start listening on `http://localhost:5000`. You can use a REST client like Postman or Insomnia to interact with the API.
+
+## API Endpoints
+
+The following API endpoints are available:
+
+- GET `/api/products`: Returns a list of all products.
+
+- GET `/api/products/:id`: Returns details for a specific product.
+
+- POST `/api/products`: Creates a new product.
+
+- PUT `/api/products/:id`: Updates a product.
+
+- DELETE `/api/products/:id`: Deletes a product.
+
+- GET `/api/categories`: Returns a list of all categories.
+
+- GET `/api/categories/:id`: Returns details for a specific category.
+
+- POST `/api/categories`: Creates a new category.
+
+- PUT `/api/categories/:id`: Updates a category.
+
+- DELETE `/api/categories/:id`: Deletes a category.
+
+- POST `/api/users/register`: Registers a new user.
+
+- POST `/api/users/login`: Authenticates a user and generates a JSON Web Token (JWT).
+
+- GET `/api/orders`: Returns a list of all orders.
+
+- GET `/api/orders/:id`: Returns details for a specific order.
+
+- POST `/api/orders`: Creates a new order.
+
+## Authentication
+
+Some of the API endpoints require authentication using a JWT. To authenticate a user, send a POST request to `/api/users/login` with the user's email and password. The server will respond with a JWT, which should be included in subsequent requests as an Authorization header:
+
+```makefile
+Authorization: Bearer <jwt-token-here>
+```
+
+## Configuration
+
+Before you can use the application, you need to create a .env file in the root directory of the application with the following environment variables:
+
+```makefile
+MONGO_URI=<your-mongodb-uri-here>
+JWT_SECRET=<your-jwt-secret-here>
+JWT_LIFETIME=2d
+```
+
+
+## Packages
 
 #### [express-async-errors](https://github.com/davidbanham/express-async-errors#readme)
 
@@ -20,7 +105,7 @@ Used to automatically validate emails entered by the users instead of manually s
 
 Used to parse the cookies send by the browser to get them as a token. Express helps us in setting up cookies but there's no built in way to parse them.
 
-### Q/As
+## Q/As
 
 **Q. Why do we need `express.json()` middleware?**
 
