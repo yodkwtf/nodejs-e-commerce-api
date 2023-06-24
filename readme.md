@@ -1,10 +1,10 @@
 # E-commerce API
 
-This is a backend application built with NodeJS that provides an API for an E-commerce website. The API allows clients to create and manage products, categories, and orders, as well as handle authentication and authorization of users.
+This is a backend application built with NodeJS that provides an API for an E-commerce website. The API allows clients to create and manage products, categories, and orders, as well as handle the authentication and authorization of users.
 
 ## Preview
 
-See the live documentation powered by SwaggerUI at [https://e-commerce-api-dk.up.railway.app](https://e-commerce-api-dk.up.railway.app/)
+See the live documentation powered by SwaggerUI at [https://e-commerce-api-dk.onrender.com](https://e-commerce-api-dk.onrender.com/)
 
 ## Installation
 
