@@ -1,6 +1,6 @@
 ## Hosted Project
 
-[E-Commerce API Railway URL](https://e-commerce-api-dk.up.railway.app/)
+[E-Commerce API Render URL](https://e-commerce-api-dk.onrender.com/)
 
 #### Setup Basic Express Server
 
@@ -21,7 +21,7 @@
 - [x] setup / GET Route
 - [x] setup express.json() middleware
 - [x] setup 404 and errorHandler middleware
-- [x] import 'exress-async-errors' package
+- [x] import 'express-async-errors' package
 
 #### 404 vs ErrorHandler Middleware
 
